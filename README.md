@@ -35,7 +35,7 @@ Windows: Tested on Windows 10/11.
 
 InstallationClone the Repository:bash
 
-git clone https://github.com/your-username/land-registry.git
+git clone https://github.com/Harshil2498/Decentralized-Land-Registry-System.git
 cd land-registry
 
 Set Up Python Environment:bash

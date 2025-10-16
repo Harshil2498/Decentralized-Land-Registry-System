@@ -21,7 +21,7 @@ Block Generation: Each state-changing transaction (e.g., registration) creates a
 
 Tech StackSmart Contract: Solidity (^0.8.20, LandRegistry.sol)
 Frontend: Streamlit (app.py)
-Blockchain: Ganache (http://127.0.0.1:7545, Chain ID: 1337)
+Blockchain: Ganache (http://127.0.0.1:8545, Chain ID: 1337)
 Wallet: MetaMask for transaction signing
 IPFS: Pinata for decentralized document storage
 Dependencies: web3.py, py-solc-x, requests (Python 3.12.10)
@@ -63,7 +63,7 @@ Creates ganache_data for persistent blockchain state.
 UsageDeploy Smart Contract:Open Remix IDE.
 Paste LandRegistry.sol (Solidity ^0.8.20).
 Compile and deploy:Environment: Injected Provider (MetaMask).
-Connect MetaMask to Ganache (http://127.0.0.1:7545, Chain ID: 1337).
+Connect MetaMask to Ganache (http://127.0.0.1:8545, Chain ID: 1337).
 Use first Ganache account (~100 ETH).
 Set gas limit: 6,000,000.
 
